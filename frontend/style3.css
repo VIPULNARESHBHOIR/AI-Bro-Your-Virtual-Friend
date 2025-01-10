@@ -1,0 +1,213 @@
+body {
+    text-align: -webkit-center;
+    background-color: rgb(37, 90, 101);
+    background-image: linear-gradient(to right bottom, rgb(19, 22, 57), rgb(37, 109, 123), rgb(120, 1, 255));
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/*
+Baskerville 
+Andalé Mono (monospace)
+Courier (monospace)
+Lucida (monospace)
+Monaco (monospace)
+Bradley Hand (cursive)
+Brush Script MT (cursive)
+Luminari (fantasy)
+Comic Sans MS (cursive)
+
+*/
+
+
+#main-text {
+    font-family: Baskerville (serif);
+    letter-spacing: 2px;
+    text-shadow: 0px 6px rgb(0 0 0 / 37%);
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(#2affe5, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*
+background: #2ec194;
+border-radius:15px;
+box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+            15px 15px 15px rgba(0,0,0,0.1);
+            
+            
+background: #2ec194;
+border-radius:15px;
+box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+            15px 15px 15px rgba(0,0,0,0.1)
+            inset -5px -5px 5px rgba(255,255,255,0.2),
+            inset 5px 5px 5px rgba(0,0,0,0.1);
+
+*/
+
+.col-sm-6 {
+    padding-right: 5px;
+}
+
+
+.col-sm-6 .card {
+    text-align: center;
+    margin-top: 22px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    backdrop-filter: blur(200px);
+    background-color: rgb(64 94 101 / 20%);
+    border-radius: 15px;
+    box-shadow: 10px -10px 15px rgb(30, 29, 29),
+        15px 15px 15px rgb(0 0 0 / 5%);
+
+}
+
+
+.search-box {
+    width: calc(100% - 0px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(16 38 67);
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search-box:focus {
+    border: none;
+}
+
+#actions{
+    padding: 0px 10px 0px 10px;
+
+}
+
+.submit-btn {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: auto;
+    width: 120px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+
+
+.submit-btn:hover {
+    background-color: rgb(47 3 141);
+}
+
+.scrollable-div {
+    margin-top: 8px;
+    width: 100%;
+    height: 100%;
+    height: 370px;
+    resize: none;
+    text-align: justify;
+    border-radius: 5px;
+    overflow-y: auto;
+    background-color: rgb(22 50 56 / 53%);
+    backdrop-filter: blur(120px);
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.2),
+        5px 5px 15px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 5px rgba(8, 7, 7, 0.347),
+        inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.scrollable-div .text-box {
+    padding: 7px;
+    font-size: large;
+}
+
+
+.controls {
+    vertical-align: middle;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.download-btn {
+    width: 125px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px rgba(107, 221, 215, 0.37);
+    padding: 5px 10px;
+    background: linear-gradient(160deg, rgb(12 39 99) 0%, rgba(46, 86, 194, 1) 5%, rgba(47, 93, 197, 1) 11%, rgba(59, 190, 230, 1) 57%, rgba(0, 212, 255, 1) 71%);
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px rgba(1, 15, 19, 0.568));
+
+}
+
+.download-btn:hover {
+    border: 1px solid rgb(255 255 255);
+    background: rgb(47 3 141);
+    color: white;
+}
+
+.controls #logos {
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.controls #logos:hover {
+    background-color: rgb(47 3 141);
+    padding: 4px;
+}
+
+.conversion {
+    vertical-align: middle;
+    margin-bottom: 8px;
+
+}
+
+.conversion .English {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 25px;
+    letter-spacing: 0.5px;
+    font-size: xx-large;
+}
+
+.conversion .convert-logo {
+    margin-right: 20px;
+
+}
+
+.conversion #lang {
+    width: 150px;
+    height: 40px;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(16 38 67);
+
+}
+
+.conversion #lang:focus {
+    border: 2px solid aqua;
+}
