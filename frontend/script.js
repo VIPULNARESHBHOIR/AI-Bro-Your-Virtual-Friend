@@ -62,7 +62,7 @@ function listen(){
 function newParagraph(text){
     changeImg('logos/robo.gif');
     const conversation = document.getElementById('scrollable-text');
-    const paragraph = document.createElement("p");
+    const paragraph = document.createElement("pre");
     paragraph.classList.add("text-box");
     paragraph.textContent = text;
     conversation.appendChild(paragraph);
@@ -81,7 +81,7 @@ async function fetch_response(){
     try{
         const answer = await fetch(`http://127.0.0.1:8000/response/?prompt=${user_inp.value}`);
         let data = await answer.json();
-        response = String(data.response).replaceAll("*", "");
+        response = data.response.replaceAll("*", "");
         console.log(`AI BRO: ${response}`);
     }
 

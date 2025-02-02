@@ -126,7 +126,7 @@ box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
         inset 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-p {
+pre {
     margin-top: 0;
     margin-bottom: 0rem;
 }
@@ -134,6 +134,13 @@ p {
 .scrollable-div .text-box {
     padding: 7px;
     font-size: large;
+    white-space: pre-wrap; /* Preserves spaces and line breaks, while allowing text to wrap */
+    word-wrap: break-word;  /* Ensures long words break within the container */
+    overflow-wrap: break-word;
+    max-width: 100%; /* Prevents content from overflowing */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Adds spacing between points */
 }
 
 
